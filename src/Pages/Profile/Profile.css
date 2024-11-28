@@ -1,0 +1,67 @@
+.profile-header img{
+    width: 100%;
+    border-radius: 25px;
+}
+
+.profile-header  .off-btn{
+    width: 29%;
+    text-align: center;
+    font-weight: 400;
+    padding: calc(var(--padding-primary)/5);
+    background-color: var(--color-primary);
+    border-radius: 25px;
+    margin-top:20%;
+    margin-bottom: 14px;
+}
+.profile-text h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.profile-text p{
+    opacity: 59%;
+    margin-top: 29px;
+    margin-bottom: 20px;
+}
+.live-stream a{
+   color: var(--color-primary);
+   border: 1px solid var(--color-primary);
+   padding: calc(var(--padding-primary)/5);
+   border-radius: 26px;
+}
+.live-stream a:hover{
+    background-color: var(--color-light);
+    border: none;
+ }
+ .gaming-statistics ul{
+    margin-top:50px;
+    background-color: var(--color-darkest);
+    padding: calc(var(--padding-primary)/2);
+    border-radius: 26px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: space-evenly;
+    
+ }
+ .gaming-statistics  li{
+ flex:1 ;
+ opacity: 0.3;
+ border-bottom: 1px solid white;
+ padding:calc(var(--padding-primary)/4) ;
+ }
+ .gaming-statistics  li ,span{ 
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-between;
+}
+.gaming-statistics li span {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-between;
+    opacity: 1; /* Ensure full opacity for spans */
+    color: var(--color-primary);
+  }
